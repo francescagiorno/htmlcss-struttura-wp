@@ -45,3 +45,27 @@ ul.menu li a {
   color: white;
   text-decoration: none;
 }
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+}
+
+.col-1-of-3, .col-3-of-3{
+  width: 20%;
+
+}
+
+.col-2-of-3{
+  width: 60%;
+}
+
+.end{
+  text-align: center;
+  color: lightgrey;;
+}
